@@ -6,7 +6,7 @@ def guessing
   guess = gets.chomp
   if guess == num.to_s
     puts "Correct!"
-  elsif input.downcase == "exit"
+  elsif guess.downcase == "exit"
     puts "Goodbye!"
   else
     puts "Sorry! The number was #{num}."
